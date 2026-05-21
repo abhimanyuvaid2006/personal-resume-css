@@ -1,9 +1,9 @@
 # Design Guidelines
 
 ## Colour Scheme
-- Background #0d0d0d
-- Accent #c8f55a 
-- Text #f0ede6 
+- Background: #f4f4f4 (light grey)
+- Header/Footer: #222 (dark)
+- Text: #333 (dark grey)
 
 ## Font Pairing
 - Heading: Syne 
