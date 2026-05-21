@@ -17,22 +17,7 @@ header {
     align-items: center;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
 
-nav a {
-    color: #fff;
-}
-
-nav a:hover {
-    color: deeppink;
-}
 
 .main-content {
     margin: 2rem auto;
@@ -62,3 +47,24 @@ body {
     font-weight: 400;
     font-size: 16px;
 }
+
+/* Mobile**/
+@media screen and (max-width: 600px) {
+    .main-content {
+        width: 95%;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .main-content {
+        width: 90%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .main-content {
+        width: 80%;
+    }
+} 
